@@ -2,10 +2,10 @@
 Cryptocurrencies widget for Kraken platform working on awesome wm
 # Installation
 Copy the files cryptowidget.lua and getprice.py in the directory ~/.config/awesome then add this line in the rc.lua file:
-```local cryptowidget = require("cryptowidget")```  
+```local cryptowidget = require("cryptowidget")```    
 Copy the images (LTC.png and XRP.png) in the same directory and edit the file cryptowidget.lua according to your environment:
-```local path_icons = "/home/[YOUR_HOME_DIRECTORY]/.config/awesome/"```
-```object = watch('python /home/[YOUR_HOME_DIRECTORY]/.config/awesome/getprice.py -p '..pair,10, ```
+```local path_icons = "/home/[YOUR_HOME_DIRECTORY]/.config/awesome/"```     
+```object = watch('python /home/[YOUR_HOME_DIRECTORY]/.config/awesome/getprice.py -p '..pair,10, ```   
 To create a widget for a particular currency you just have to call the function cryptowidget() with the pair as argument. Example:
 ```
 -- Crypto widgets 
