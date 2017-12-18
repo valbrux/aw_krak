@@ -1,5 +1,7 @@
 # aw_krak
 Cryptocurrencies widget for Kraken platform working on awesome wm
+# Result
+![widget](widget.png?raw=true "Widget")
 # Installation
 Copy the files cryptowidget.lua and getprice.py in the directory ~/.config/awesome then add this line in the rc.lua file:
 ```local cryptowidget = require("cryptowidget")```    
@@ -37,6 +39,5 @@ And then add the widgets to your favourite wibox:
 	},
     }
 ```
-Result:
 
 
